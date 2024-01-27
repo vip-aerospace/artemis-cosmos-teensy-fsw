@@ -1,5 +1,8 @@
 var NAVTREEINDEX0 =
 {
+"":[5,0,0],
+"":[5,0,1],
+"":[5,0,1,0],
 "Multithreading.html":[2],
 "Multithreading.html#MultithreadingAnalogy":[1],
 "Multithreading.html#Mutexes":[0],
@@ -246,8 +249,5 @@ var NAVTREEINDEX0 =
 "classCosmos_1_1Support_1_1Ax25Handle.html#a0f8821982da66463730464a26ed7fe8b":[6,0,1,0,0,17],
 "classCosmos_1_1Support_1_1Ax25Handle.html#a21ff012bfbad35efdf41500532771129":[6,0,1,0,0,13],
 "classCosmos_1_1Support_1_1Ax25Handle.html#a3026de5d7ebf9f2b6c403fe37e5d2afd":[6,0,1,0,0,26],
-"classCosmos_1_1Support_1_1Ax25Handle.html#a3cdedbb9eda003b1eb563292476e5553":[6,0,1,0,0,15],
-"classCosmos_1_1Support_1_1Ax25Handle.html#a4ac5a9ebc2848f0e43cd93276d8444df":[6,0,1,0,0,5],
-"classCosmos_1_1Support_1_1Ax25Handle.html#a503dbd15dc6941df66b3c82eb6aaaa6e":[6,0,1,0,0,10],
-"classCosmos_1_1Support_1_1Ax25Handle.html#a54eea95cae8cb96e6efaa87d02b387fb":[6,0,1,0,0,11]
+"classCosmos_1_1Support_1_1Ax25Handle.html#a3cdedbb9eda003b1eb563292476e5553":[6,0,1,0,0,15]
 };
