@@ -1,8 +1,5 @@
 var NAVTREEINDEX0 =
 {
-"":[6,0,0],
-"":[6,0,1],
-"":[6,0,1,0],
 "Multithreading.html":[3],
 "Multithreading.html#MultithreadingAnalogy":[1],
 "Multithreading.html#Mutexes":[0],
@@ -149,7 +146,6 @@ var NAVTREEINDEX0 =
 "artemis__defs_8h.html#ae77a939baa88784acde567432857faac":[8,0,0,1,0,17],
 "artemis__defs_8h.html#aff13754baec1704b84fb2401862fe7d2":[8,0,0,1,0,24],
 "artemis__defs_8h_source.html":[8,0,0,1,0],
-"artemis__devices_8cpp.html":[8,0,2,2],
 "artemis__devices_8h.html":[8,0,0,2],
 "artemis__devices_8h_source.html":[8,0,0,2],
 "artemisbeacons_8h.html":[8,0,0,3],
@@ -249,5 +245,9 @@ var NAVTREEINDEX0 =
 "classCosmos_1_1Support_1_1Ax25Handle.html#a0f8821982da66463730464a26ed7fe8b":[7,0,1,0,0,17],
 "classCosmos_1_1Support_1_1Ax25Handle.html#a21ff012bfbad35efdf41500532771129":[7,0,1,0,0,13],
 "classCosmos_1_1Support_1_1Ax25Handle.html#a3026de5d7ebf9f2b6c403fe37e5d2afd":[7,0,1,0,0,26],
-"classCosmos_1_1Support_1_1Ax25Handle.html#a3cdedbb9eda003b1eb563292476e5553":[7,0,1,0,0,15]
+"classCosmos_1_1Support_1_1Ax25Handle.html#a3cdedbb9eda003b1eb563292476e5553":[7,0,1,0,0,15],
+"classCosmos_1_1Support_1_1Ax25Handle.html#a4ac5a9ebc2848f0e43cd93276d8444df":[7,0,1,0,0,5],
+"classCosmos_1_1Support_1_1Ax25Handle.html#a503dbd15dc6941df66b3c82eb6aaaa6e":[7,0,1,0,0,10],
+"classCosmos_1_1Support_1_1Ax25Handle.html#a54eea95cae8cb96e6efaa87d02b387fb":[7,0,1,0,0,11],
+"classCosmos_1_1Support_1_1Ax25Handle.html#a84b70945a5bfa86721251890ace4ebd9":[7,0,1,0,0,14]
 };

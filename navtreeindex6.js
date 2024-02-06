@@ -1,5 +1,6 @@
 var NAVTREEINDEX6 =
 {
+"rpi__channel_8cpp.html#ade1dce0fa49c508c31cbbd60b2082983":[8,0,2,0,2,5],
 "sliplib_8cpp.html":[8,0,1,2,1,5],
 "sliplib_8h.html":[8,0,1,2,1,6],
 "sliplib_8h_source.html":[8,0,1,2,1,6],
@@ -122,6 +123,7 @@ var NAVTREEINDEX6 =
 "structthread__struct.html":[7,0,3],
 "structthread__struct.html#a0d4a9cb713e4c1c19a2d08e3c5382659":[7,0,3,0],
 "structthread__struct.html#af49b5ae735600c96cc13a0efeeff9dce":[7,0,3,1],
+"temperature__sensors_8cpp.html":[8,0,2,2,4],
 "test__channel_8cpp.html":[8,0,2,0,3],
 "test__channel_8cpp.html#a084e58e0cc4d68dd8e3812b74dfe75ac":[8,0,2,0,3,14],
 "test__channel_8cpp.html#a1688d10411ca41335f253dd24d781a91":[8,0,2,0,3,0],
@@ -140,5 +142,8 @@ var NAVTREEINDEX6 =
 "test__channel_8cpp.html#ad6e6eb546caa83d955087eb4c1ef6a41":[8,0,2,0,3,9],
 "test__channel_8cpp.html#ae4dc87ba7166cbe8898effa4f7b044da":[8,0,2,0,3,15],
 "test__channel_8cpp.html#ae5d25eb94ff17f87cd6623516349ffd5":[8,0,2,0,3,1],
-"todo.html":[4]
+"todo.html":[4],
+"":[6,0,1],
+"":[6,0,0],
+"":[6,0,1,0]
 };
