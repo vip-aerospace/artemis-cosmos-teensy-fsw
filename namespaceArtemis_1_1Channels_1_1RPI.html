@@ -191,7 +191,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="name
 </div><div class="memdoc">
 
 <p>Helper function to receive a packet from the Raspberry Pi. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000014">Todo:</a></b></dt><dd>Complete this. If data is available from the serial connection, read in the data and store it in a PacketComm packet. Add that packet to the main_queue for routing. </dd></dl>
+<p>It seems that the micro-cosmos implementation of PacketComm/SLIPLib does not provide a convenient get_slip() method. This means that we need to manually parse the Serial stream for something that <em>looks like</em> SLIP packets. From there, we use the standard SLIPUnPacketize() method to turn it back into a regular packet for routing.</p>
+<p>This method is temporarily extra-documented, to explain how this searching works.</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000014">Todo:</a></b></dt><dd>See if there's a better way of doing this. </dd></dl>
 
 </div>
 </div>
