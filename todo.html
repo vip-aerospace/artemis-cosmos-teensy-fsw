@@ -88,24 +88,26 @@ $(document).ready(function(){initNavTree('todo.html',''); initResizable(); });
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><dl class="reflist">
-<dt>Member <a class="el" href="namespaceArtemis_1_1Channels_1_1PDU.html#afdf6d308b8044e23e67a9e7db9debd5d">Artemis::Channels::PDU::deploy</a>  ()</dt>
-<dd><p class="startdd"><a class="anchor" id="_todo000010"></a>SD is begun twice. is this needed?</p>
-<p class="enddd"><a class="anchor" id="_todo000011"></a>try storing burnwire complete and deployment separately. deployed.txt should only be written after DEPLOYMENT_LENGTH.  </p>
-</dd>
-<dt>Member <a class="el" href="namespaceArtemis_1_1Channels_1_1PDU.html#a9f780000f90f5ecac48f4809600adc07">Artemis::Channels::PDU::enableRFM23Radio</a>  ()</dt>
-<dd><a class="anchor" id="_todo000009"></a>The radio is connected to the 3V3_2 switch however it is still getting power from somewhere else. Uncommenting these two lines crashes the flight software. troubleshoot hardware &amp; software.  </dd>
 <dt>Member <a class="el" href="namespaceArtemis_1_1Channels_1_1RPI.html#a475d8c77c7cc5daf87a62028486f1b1e">Artemis::Channels::RPI::loop</a>  ()</dt>
 <dd><a class="anchor" id="_todo000013"></a>Handle the case where the Pi is not on.  </dd>
-<dt>Member <a class="el" href="namespaceArtemis_1_1Channels_1_1RPI.html#a972353f3b29defd89174536c9c8f9e2d">Artemis::Channels::RPI::receive_from_pi</a>  ()</dt>
-<dd><a class="anchor" id="_todo000014"></a>See if there's a better way of doing this.  </dd>
 <dt>Member <a class="el" href="namespaceArtemis_1_1Channels_1_1RPI.html#ade1dce0fa49c508c31cbbd60b2082983">Artemis::Channels::RPI::setup</a>  ()</dt>
 <dd><a class="anchor" id="_todo000012"></a>Ensure the Pi is on before completing setup.  </dd>
-<dt>Member <a class="el" href="classArtemis_1_1Devices_1_1CurrentSensors.html#a41210ce3466594bd24909f12e6ba4feb">Artemis::Devices::CurrentSensors::setup</a>  (void)</dt>
-<dd><a class="anchor" id="_todo000016"></a>Go through library and see what we need to configure and calibrate </dd>
 <dt>Member <a class="el" href="classArtemis_1_1Devices_1_1PDU.html#a89217a2fe8be58f4880105e47c302a95">Artemis::Devices::PDU::set_switch</a>  (PDU_SW sw, PDU_SW_State state)</dt>
 <dd><a class="anchor" id="_todo000003"></a>This function should check the switch state and ensure it matches what we expect. However, the reply from the <a class="el" href="classArtemis_1_1Devices_1_1PDU.html" title="The PDU class.">PDU</a> with the switch state should still be used to update the internal <a class="el" href="classArtemis_1_1Devices_1_1PDU.html" title="The PDU class.">PDU</a> class switch state, even if the switch hasn't been set.  </dd>
 <dt>Member <a class="el" href="classArtemis_1_1Devices_1_1PDU.html#a696c926779e1e3f74c85d08dc324c18b">Artemis::Devices::PDU::switch_states</a>  [NUMBER_OF_SWITCHES]</dt>
 <dd><a class="anchor" id="_todo000004"></a>Make this private.  </dd>
+<dt>Page <a class="el" href="md_documentation_de_setup_guide.html">de_setup_guide</a>  </dt>
+<dd><a class="anchor" id="_todo000001"></a>Inlcude installatin of Git for Windows if using Windows  </dd>
+<dt>Member <a class="el" href="namespaceArtemis_1_1Channels_1_1PDU.html#afdf6d308b8044e23e67a9e7db9debd5d">Artemis::Channels::PDU::deploy</a>  ()</dt>
+<dd><p class="startdd"><a class="anchor" id="_todo000011"></a>try storing burnwire complete and deployment separately. deployed.txt should only be written after DEPLOYMENT_LENGTH. </p>
+<p class="enddd"><a class="anchor" id="_todo000010"></a>SD is begun twice. is this needed? </p>
+</dd>
+<dt>Member <a class="el" href="namespaceArtemis_1_1Channels_1_1PDU.html#a9f780000f90f5ecac48f4809600adc07">Artemis::Channels::PDU::enableRFM23Radio</a>  ()</dt>
+<dd><a class="anchor" id="_todo000009"></a>The radio is connected to the 3V3_2 switch however it is still getting power from somewhere else. Uncommenting these two lines crashes the flight software. troubleshoot hardware &amp; software.  </dd>
+<dt>Member <a class="el" href="namespaceArtemis_1_1Channels_1_1RPI.html#a972353f3b29defd89174536c9c8f9e2d">Artemis::Channels::RPI::receive_from_pi</a>  ()</dt>
+<dd><a class="anchor" id="_todo000014"></a>See if there's a better way of doing this.  </dd>
+<dt>Member <a class="el" href="classArtemis_1_1Devices_1_1CurrentSensors.html#a41210ce3466594bd24909f12e6ba4feb">Artemis::Devices::CurrentSensors::setup</a>  (void)</dt>
+<dd><a class="anchor" id="_todo000016"></a>Go through library and see what we need to configure and calibrate </dd>
 <dt>Member <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html#a7724f9e9c613854d705251d3e232f840">Artemis::Devices::RFM23::init</a>  (<a class="el" href="structArtemis_1_1Devices_1_1RFM23_1_1rfm23__config.html" title="The RFM23 radio configuration.">rfm23_config</a> cfg, Threads::Mutex *mtx)</dt>
 <dd><a class="anchor" id="_todo000005"></a>The function puts the rfm23 into sleep mode, then idle mode. Is this intended? idle overrides sleep.  </dd>
 <dt>Member <a class="el" href="classArtemis_1_1Devices_1_1RFM23.html#aba7c2567bd47861fca0319cb70c0b8f3">Artemis::Devices::RFM23::recv</a>  (PacketComm &amp;packet, uint16_t timeout)</dt>
@@ -114,8 +116,6 @@ $(document).ready(function(){initNavTree('todo.html',''); initResizable(); });
 <dd><p class="startdd"><a class="anchor" id="_todo000006"></a>The function puts the rfm23 into sleep mode, then idle mode. Is this intended? idle overrides sleep.</p>
 <p class="enddd"><a class="anchor" id="_todo000007"></a>The transmit and receive pins are set low and high respectively. check if this is intended behavior. either change the pin definitions or use setGpioReversed().  </p>
 </dd>
-<dt>Page <a class="el" href="md_documentation_de_setup_guide.html">de_setup_guide</a>  </dt>
-<dd><a class="anchor" id="_todo000001"></a>Inlcude installatin of Git for Windows if using Windows  </dd>
 <dt>Member <a class="el" href="main_8cpp.html#a1ed3879fd52d775ef4e40b0282cc25ec">ensure_rpi_is_powered</a>  ()</dt>
 <dd><a class="anchor" id="_todo000017"></a>This should still function if the current sensors are not enabled via build flags.  </dd>
 <dt>Member <a class="el" href="artemis__defs_8cpp.html#ab15879e515965b29fc4876c8eddb0160">kill_thread</a>  (uint8_t target_channel_id)</dt>

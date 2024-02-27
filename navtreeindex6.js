@@ -1,5 +1,8 @@
 var NAVTREEINDEX6 =
 {
+"rpi__channel_8cpp.html#ab8bfc2b30aedf2be64040f09b018935a":[8,0,2,0,2,7],
+"rpi__channel_8cpp.html#ac736e7368e9ea4218416ce94edcf2cb5":[8,0,2,0,2,8],
+"rpi__channel_8cpp.html#ada0a67472550c7058f379cd31a8bf391":[8,0,2,0,2,4],
 "rpi__channel_8cpp.html#ade1dce0fa49c508c31cbbd60b2082983":[8,0,2,0,2,5],
 "sliplib_8cpp.html":[8,0,1,2,1,5],
 "sliplib_8h.html":[8,0,1,2,1,6],
@@ -142,8 +145,5 @@ var NAVTREEINDEX6 =
 "test__channel_8cpp.html#ad6e6eb546caa83d955087eb4c1ef6a41":[8,0,2,0,3,9],
 "test__channel_8cpp.html#ae4dc87ba7166cbe8898effa4f7b044da":[8,0,2,0,3,15],
 "test__channel_8cpp.html#ae5d25eb94ff17f87cd6623516349ffd5":[8,0,2,0,3,1],
-"todo.html":[4],
-"":[6,0,1],
-"":[6,0,0],
-"":[6,0,1,0]
+"todo.html":[4]
 };
